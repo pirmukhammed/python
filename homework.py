@@ -14,4 +14,6 @@ with myFile:
 		writer = csv.writer(myFile)
 		writer.writerows(myData)
 
+myFile = open('C:\\Users\\Home\\Desktop\\python\\Урок8\\data.csv', 'r')
+print(myFile.read())
 print('Записи записаны') 
