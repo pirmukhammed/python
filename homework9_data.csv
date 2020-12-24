@@ -1,0 +1,4 @@
+id,username,email,ip_address,registered_at
+1,admin,admin@example.com,192.168.0.1,Thu Dec 24 15:42:38 2020
+2,test_user,test_user@example.com,192.168.0.2,Thu Dec 24 15:42:38 2020
+3,second_user,second_user@example.com,192.168.0.3,Thu Dec 24 15:42:38 2020
