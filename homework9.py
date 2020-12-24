@@ -6,7 +6,7 @@ import datetime
 registered_at = time.ctime(time.time())
 time = datetime.datetime.now() 
 
-myData = [["id","username","email","ip_address", "time", "registered_at", ],
+myData = [["id","username","email","ip_address", "time", "registered_at"],
 			['1','admin','admin@example.com','192.168.0.1', time, registered_at], 
 			['2','test_user','test_user@example.com','192.168.0.2', time, registered_at],
 			['3','second_user','second_user@example.com','192.168.0.3', time, registered_at]]
