@@ -28,8 +28,8 @@ max_hp_dragon = 10 + constitution_dragon + randint(1, 11) * level_dragon
 hp_hero = max_hp_hero
 hp_dragon = max_hp_dragon 
 
-dragon_attack = randint(1, 13) + strength_dragon
-hero_attack = randint(1, 13) + strength_hero
+dragon_attack = (randint(1, 13) + (floor(strength_dragon - 10) / 2))
+hero_attack = (randint(1, 13) + (floor(strength_hero - 10) / 2))
 	
 
 print("start fight")
