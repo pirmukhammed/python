@@ -39,20 +39,20 @@ print("max_hp_dragon: ", max_hp_dragon)
 while True:
 
 	if randint(0, 1) == 0:	
-		hp_hero = max_hp_hero - dragon_attack
-		print("Удар Дракона")
+		hp_hero = (max_hp_hero - dragon_attack) // 2
+		print("Удар Дракона, hp_hero: ", "-",max_hp_hero-hp_hero,"hp")
 
 	elif randint(0, 1) == 1:
-		hp_dragon = max_hp_dragon - hero_attack
-		print("Удар Героя")
+		hp_dragon = (max_hp_dragon - hero_attack) // 2
+		print("Удар Героя, hp_dragon: ", "-",max_hp_dragon-hp_dragon,"hp")
 
 	elif hp_hero > hp_dragon:
-		print("Герой победил",  "hp_hero: ",hp_hero)
+		print("Герой победил",  "hp_hero: осталось",hp_hero,"hp")
 		print("Дракон умер")
 		break
 
 	elif hp_hero < hp_dragon:
-		print("Дракон победил", "hp_dragon: ",hp_dragon)
+		print("Дракон победил", "hp_dragon: осталось",hp_dragon,"hp")
 		print("Герой умер")
 		break
 
