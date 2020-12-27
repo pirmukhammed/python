@@ -33,6 +33,8 @@ hero_attack = (randint(1, 13) + (floor(strength_hero - 10) / 2))
 	
 
 print("start fight")
+print("max_hp_hero: ", max_hp_hero)
+print("max_hp_dragon: ", max_hp_dragon)
 
 while True:
 
