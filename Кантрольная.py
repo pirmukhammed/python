@@ -62,3 +62,17 @@ while True:
 		print("Ничья")
 		print("Они подружились! )))")
 		break
+
+'''
+Все таки существует дружба! 
+
+start fight
+max_hp_hero:  112
+max_hp_dragon:  116
+Удар Героя, hp_dragon:  - 66.0 hp
+Удар Дракона, hp_hero:  - 62.0 hp
+hp_hero:  50.0
+hp_dragon:  50.0
+Ничья
+Они подружились! )))
+'''
